@@ -33,3 +33,13 @@ https://askubuntu.com/questions/84781/iptables-resets-when-server-reboots
 
 https://zertrin.org/projects/iptables-persistent/
 
+
+#### EXTRA
+
+
+sudo iptables -A INPUT -s 177.85.60.178 -j ACCEPT && iptables -A OUTPUT -d 177.85.60.178 -j ACCEPT
+
+
+How To: Whitelist An IP Address In IPTables: https://serversaustralia.zendesk.com/hc/en-us/articles/115002335806-How-To-Whitelist-An-IP-Address-In-IPTables
+https://www.hostinger.com.br/tutoriais/tutorial-iptables: https://www.hostinger.com.br/tutoriais/tutorial-iptables
+Allow traffic to/from specific IP with iptables: https://serverfault.com/questions/163111/allow-traffic-to-from-specific-ip-with-iptables
